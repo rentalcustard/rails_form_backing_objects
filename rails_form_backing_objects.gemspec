@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email = ["tom@therye.org"]
   s.files = Dir.glob("lib/**/*")
   s.homepage = %q{https://github.com/mortice/rails_form_backing_objects}
-  s.rdoc_options = ["--main"
+  s.rdoc_options = ["--main"]
   s.require_paths = ["lib"]
   s.summary = %q{ActiveModel compliant form backing objects for Rails}
 	s.description = "Dumb superclass for rails form backing objects"
