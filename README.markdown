@@ -22,6 +22,8 @@ See [this article](http://pivotallabs.com/users/jdean/blog/articles/1706-form-ba
     # in your view...
     <%= form_for @your_backing_object do |f| %> #this just works
 
+Oh also, it's for Ruby >= 1.9 only.
+
 ## INSTALL:
 
 * gem install rails_form_backing_objects
