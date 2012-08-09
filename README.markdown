@@ -7,6 +7,8 @@
 A dumb library with a crappy name. It lets you use non-persisted objects as the targets of Rails' form_for.
 See [this article](http://pivotallabs.com/users/jdean/blog/articles/1706-form-backing-objects-for-fun-and-profit) for a description of the pattern.
 
+I hacked this up for a project which may or may not still be using it, hence keeping it around, but [this stab at the problem](https://github.com/MSch/activemodel-form) is probably a better bet.
+
 ## SYNOPSIS:
 
     class YourBackingObject < RailsFormBackingObjects::Base
